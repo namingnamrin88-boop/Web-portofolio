@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Namrin | Portofolio Sales & Ritel</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: '#1e3a8a',
+            gold: '#fbbf24'
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style> body { font-family: 'Poppins', sans-serif; } </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+  <!-- NAVBAR -->
+  <nav class="bg-white/80 backdrop-blur-md shadow-sm fixed w-full z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-navy">Namrin</h1>
+      <div class="hidden md:flex gap-6 text-sm font-semibold">
+        <a href="#about" class="hover:text-gold">Tentang</a>
+        <a href="#experience" class="hover:text-gold">Pengalaman</a>
+        <a href="#skills" class="hover:text-gold">Keahlian</a>
+        <a href="#projects" class="hover:text-gold">Dokumentasi</a>
+        <a href="#contact" class="hover:text-gold">Kontak</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="pt-32 pb-20 bg-gradient-to-br from-navy to-blue-800 text-white">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
+      <div class="flex-1 text-center md:text-left">
+        <h2 class="text-4xl md:text-5xl font-bold leading-tight">Namrin</h2>
+        <p class="mt-3 text-xl text-gold font-semibold">Sales Consultant | Lulusan Teknik Otomasi Industri</p>
+        <p class="mt-4 text-lg opacity-90">Memberikan Pelayanan Terbaik dengan Semangat Belajar Tinggi</p>
+        <a href="#contact" class="mt-6 inline-block bg-gold text-navy font-bold px-8 py-3 rounded-full shadow-lg hover:scale-105 transition">Hubungi Saya</a>
+      </div>
+      <div class="flex-1 flex justify-center">
+        <img src="foto-profil.jpg" alt="Foto Profil Namrin" class="w-64 h-64 rounded-full border-4 border-gold object-cover shadow-2xl">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT ME -->
+  <section id="about" class="py-20">
+    <div class="max-w-4xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-navy text-center mb-8">Tentang Saya</h3>
+      <div class="bg-white p-8 rounded-2xl shadow-md">
+        <p class="text-slate-700 leading-relaxed">
+          Lulusan <span class="font-semibold">SMKN 1 Sindang jurusan Teknik Otomasi Industri 2023-2026</span>. 
+          Memiliki pengalaman Praktek Kerja Lapangan di bidang ritel sebagai <span class="font-semibold">Perbantuan Sales Consultant / THL Men Fashion di Yogya Toserba Indramayu</span>. 
+          Memiliki kemampuan dalam melayani konsumen dengan baik, penerapan K3, membantu operasional toko, dan bersedia bekerja dalam sistem shift. 
+          Saat ini tertarik mengembangkan kemampuan di bidang <span class="font-semibold">caffe serta industri food and beverage sebagai crew store</span>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-navy text-center mb-12">Pengalaman & Organisasi</h3>
+      <div class="mb-12">
+        <h4 class="text-2xl font-semibold text-navy mb-4 border-l-4 border-gold pl-4">Pengalaman Kerja PKL</h4>
+        <div class="bg-slate-50 p-6 rounded-xl shadow">
+          <h5 class="font-bold text-lg">Perbantuan Sales Consultant (SC) / THL - Yogya Toserba Indramayu</h5>
+          <p class="text-sm text-slate-500 mb-3">Januari - April 2026</p>
+          <ul class="list-disc list-inside space-y-2 text-slate-700">
+            <li>Melayani pelanggan dengan ramah dan profesional</li>
+            <li>Menata dan merapihkan display produk fashion sesuai standar toko</li>
+            <li>Memberikan informasi kepada pelanggan mengenai produk baru</li>
+            <li>Menjaga kebersihan dan kerapihan area penjualan</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="py-20">
+    <div class="max-w-4xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-navy text-center mb-10">Keahlian</h3>
+      <div class="flex flex-wrap justify-center gap-4">
+        <span class="bg-navy text-white px-5 py-2 rounded-full font-semibold shadow">Pelayanan Pelanggan</span>
+        <span class="bg-navy text-white px-5 py-2 rounded-full font-semibold shadow">Merchandising</span>
+        <span class="bg-navy text-white px-5 py-2 rounded-full font-semibold shadow">Kerjasama Tim</span>
+        <span class="bg-gold text-navy px-5 py-2 rounded-full font-semibold shadow">Cepat Belajar</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS / DOKUMENTASI -->
+  <section id="projects" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-navy text-center mb-10">Dokumentasi Kegiatan</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="overflow-hidden rounded-xl shadow-lg"><img src="foto1.jpg" class="w-full h-60 object-cover"></div>
+        <div class="overflow-hidden rounded-xl shadow-lg"><img src="foto2.jpg" class="w-full h-60 object-cover"></div>
+        <div class="overflow-hidden rounded-xl shadow-lg"><img src="foto3.jpg" class="w-full h-60 object-cover"></div>
+        <div class="overflow-hidden rounded-xl shadow-lg"><img src="foto4.jpg" class="w-full h-60 object-cover"></div>
+        <div class="overflow-hidden rounded-xl shadow-lg"><img src="foto5.jpg" class="w-full h-60 object-cover"></div>
+        <div class="overflow-hidden rounded-xl shadow-lg"><img src="foto6.jpg" class="w-full h-60 object-cover"></div>
+        <div class="overflow-hidden rounded-xl shadow-lg"><img src="foto7.jpg" class="w-full h-60 object-cover"></div>
+        <div class="overflow-hidden rounded-xl shadow-lg"><img src="foto8.jpg" class="w-full h-60 object-cover"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20 bg-navy text-white">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-4">Mari Terhubung</h3>
+      <div class="flex flex-col md:flex-row justify-center gap-6">
+        <a href="https://wa.me/6285624116743" target="_blank" class="bg-gold text-navy font-bold px-8 py-3 rounded-full shadow-lg">📱 WhatsApp</a>
+        <a href="mailto:namingnamrin88@gmail.com" class="bg-white text-navy font-bold px-8 py-3 rounded-full shadow-lg">📧 Email</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-slate-100 py-6 text-center text-sm text-slate-500">
+    © 2026 Namrin. Dibuat dengan Tailwind CSS.
+  </footer>
+
+</body>
+</html>
